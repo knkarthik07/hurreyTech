@@ -35,16 +35,11 @@
       color: white;
       top: 55%
     }
-    input{
-      background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
-      border-radius: 50em;
-      border: 2px solid transparent; 
-  }
     .btn-disabled.btn {
       pointer-events: all;
       background: linear-gradient(#141923, #141923) padding-box, linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
       border-radius: 50em;
-      border: 2px solid transparent;
+      border: 2px solid #B0B0B0;
       color: #B0B0B0;
     }
 

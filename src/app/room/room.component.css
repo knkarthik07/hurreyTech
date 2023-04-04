@@ -10,9 +10,9 @@
     }
 
     .btn {
-        background: black;
-        border: 1.65625px solid #7B72CC;
-        border-radius: 43.4766px;
+        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+        border-radius: 50em;
+        border: 2px solid transparent;
         text-align: center;
         padding: 6px;
         width: 19%;

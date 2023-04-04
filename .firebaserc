@@ -1,1 +1,5 @@
-{}
+{
+  "projects": {
+    "default": "hurreytech-125d0"
+  }
+}

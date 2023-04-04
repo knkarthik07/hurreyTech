@@ -46,7 +46,7 @@
     .btn {
         background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
         border-radius: 50em;
-        border: 2px solid transparent; 
+        border: 2px solid transparent;
         text-align: center;
         padding: 6px;
         width: 45%;
@@ -60,13 +60,8 @@
         pointer-events: all;
         background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
       border-radius: 50em;
-      border: 2px solid transparent; 
+      border: 2px solid #B0B0B0; 
         color: #B0B0B0;
-    }
-    input{
-        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
-        border-radius: 50em;
-        border: 2px solid transparent; 
     }
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {

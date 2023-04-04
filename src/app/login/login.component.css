@@ -16,10 +16,11 @@
 }
 
 .name {
-    border: 2px solid transparent;
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent; 
     width: 100%;
     margin-bottom: 10px;
-    background:linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
     border-radius: 50em;
     height: 23px;
     color: white;
@@ -39,16 +40,11 @@
     margin-top: 20px;
 
 }
-input{
-    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
-    border-radius: 50em;
-    border: 2px solid transparent; 
-}
 .btn-disabled.btn {
     pointer-events: all;
     background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
     border-radius: 50em;
-    border: 2px solid transparent;
+    border: 1px solid #B0B0B0;
     color: #B0B0B0;
 }
 
