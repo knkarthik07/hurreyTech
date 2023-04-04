@@ -1,0 +1,33 @@
+    .name {
+        color: white;
+        font-family: 'Neue Haas Grotesk Display Pro';
+        font-style: normal;
+        font-size: 30px;
+        position: absolute;
+        left: 70%;
+        bottom: 40%;
+        width: 100%;
+    }
+
+    .btn {
+        background: black;
+        border: 1.65625px solid #7B72CC;
+        border-radius: 43.4766px;
+        text-align: center;
+        padding: 6px;
+        width: 19%;
+        position: relative;
+        left: 41%;
+        color: white;
+        bottom: -250px;
+        margin-bottom: 20px;
+        height: 35px;
+
+    }
+
+    .avarar-hilder {
+        top: 90px;
+        bottom: revert;
+        left: 46%;
+        width: 15%;
+    }

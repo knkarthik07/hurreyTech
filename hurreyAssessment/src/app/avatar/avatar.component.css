@@ -1,0 +1,40 @@
+    .username{
+        margin: 0;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: 'Neue Haas Grotesk Display Pro';
+      font-style: normal;
+    }
+    .username h2{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .username h3{
+      text-align: center;
+    }
+    .highlight{ 
+        width: 25%;
+     }
+     .btn {
+        background: #3A3A3A;
+        border: 1.65625px solid #B0B0B0;
+        border-radius: 43.4766px;
+        text-align: center;
+        padding: 6px;
+        width: 13%;
+        position: relative;
+        left: 45%;
+        color: white;
+        top:80%
+    
+    }
+    
+    .btn-disabled.btn {
+        pointer-events: all;
+        background: none;
+        color: #B0B0B0;
+    }

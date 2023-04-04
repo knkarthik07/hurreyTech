@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="avatar avarar-hilder">
+        <img [src]=avatar alt="not loading">
+        <span class="username"> {{name}}</span>
+    </div>
+    <div class="createRoom">
+        <form [formGroup]="createRoomForm">
+            <p>Room name</p>
+            <input class="name" type="text" placeholder="-Type here-" formControlName="roomname">
+            <p>No. of players </p>
+            <input class="name" type="number" placeholder="-Type here-" formControlName="player">
+            <button class="btn" type="submit" [disabled]="createRoomForm.invalid" (click)="onSubmit()"
+                [ngClass]="{'btn-disabled':createRoomForm.invalid}">Create</button>
+        </form>
+    </div>
+</div>

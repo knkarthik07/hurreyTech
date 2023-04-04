@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="avatar avarar-hilder">
+        <img [src]=avatar alt="not loading">
+        <span class="username"> {{name}}</span>
+    </div>
+    <div class="roomCode">
+        <form [formGroup]="roomCodeForm">
+        <p>Share the following room code with your friends</p>
+        <input class="name" type="text" placeholder="-Type here-" formControlName="roomCode" (keypress)="onInput($event)">
+        <img src="assets/images/Share.png" alt="share">
+        <button class="btn" type="submit" [disabled]="roomCodeForm.invalid"
+                [ngClass]="{'btn-disabled':roomCodeForm.invalid}">Next</button>
+        </form>
+    </div>
+</div>
