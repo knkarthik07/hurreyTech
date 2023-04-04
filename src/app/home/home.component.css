@@ -1,0 +1,21 @@
+.bg-image {
+    position: absolute;
+    bottom: 33%;
+    right: 35%;
+}
+
+.bg-image img {
+    width: 400px;
+    height: 200px;
+}
+
+.logo {
+    position: absolute;
+    bottom: 43%;
+    left: 35%;
+}
+
+.logo img {
+    width: 350px;
+    height: 100px;
+}

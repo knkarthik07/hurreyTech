@@ -1,0 +1,75 @@
+    .username {
+        color: white;
+        font-family: 'Neue Haas Grotesk Display Pro';
+        font-style: normal;
+        font-size: 30px;
+        position: absolute;
+        left: 70%;
+        bottom: 40%;
+    }
+
+    .createRoom p {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        line-height: 1px;
+    }
+
+    .name {
+        border: 2px solid #7B72CC;
+        width: 100%;
+        margin-bottom: 10px;
+        background: rgba(217, 217, 217, 0.2);
+        border-radius: 12px;
+        height: 23px;
+        color: white;
+        font-weight: 500;
+    }
+
+    .avarar-hilder {
+        top: 90px;
+        bottom: revert;
+        left: 46%;
+    }
+
+    .createRoom {
+        margin: 0;
+        position: absolute;
+        top: 59%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Neue Haas Grotesk Display Pro';
+        font-style: normal;
+        width: 25%;
+    }
+
+    .btn {
+        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+        border-radius: 50em;
+        border: 2px solid transparent; 
+        text-align: center;
+        padding: 6px;
+        width: 45%;
+        position: relative;
+        left: 27%;
+        color: white;
+        margin-top: 25px;
+    }
+
+    .btn-disabled.btn {
+        pointer-events: all;
+        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent; 
+        color: #B0B0B0;
+    }
+    input{
+        background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+        border-radius: 50em;
+        border: 2px solid transparent; 
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }

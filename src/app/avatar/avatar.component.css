@@ -1,0 +1,60 @@
+    .username {
+      margin: 0;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-family: 'Neue Haas Grotesk Display Pro';
+      font-style: normal;
+    }
+
+    .username h2 {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .username h3 {
+      text-align: center;
+    }
+
+    .highlight {
+      width: 13%;
+    }
+
+    .btn {
+      background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent; 
+      text-align: center;
+      padding: 6px;
+      width: 13%;
+      position: relative;
+      left: 43%;
+      color: white;
+      top: 55%
+    }
+    input{
+      background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent; 
+  }
+    .btn-disabled.btn {
+      pointer-events: all;
+      background: linear-gradient(#141923, #141923) padding-box, linear-gradient(to right, #7b72cc, #dc0078, #3871d6) border-box;
+      border-radius: 50em;
+      border: 2px solid transparent;
+      color: #B0B0B0;
+    }
+
+    .avatar-icon {
+      justify-content: center;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+      display: flex;
+      position: relative;
+      top: 46%;
+      left: 0%;
+    }

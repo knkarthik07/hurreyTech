@@ -1,0 +1,54 @@
+.userForm {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-style: normal;
+}
+
+.userForm h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.name {
+    border: 2px solid transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    background:linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    height: 23px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn {
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    text-align: center;
+    padding: 6px;
+    width: 45%;
+    position: relative;
+    left: 27%;
+    color: white;
+    margin-top: 20px;
+
+}
+input{
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent; 
+}
+.btn-disabled.btn {
+    pointer-events: all;
+    background: linear-gradient(#141923,#141923) padding-box,linear-gradient(to right,#7b72cc,#dc0078,#3871d6) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+    color: #B0B0B0;
+}
+

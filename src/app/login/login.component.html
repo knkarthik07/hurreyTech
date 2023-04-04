@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="userForm">
+        <form [formGroup]="loginForm">
+        <h2>What is your name ?</h2>
+        <input class="name" type="text" placeholder="-Type here-" formControlName="username">
+        <button class="btn" type="submit" [disabled]="loginForm.invalid" (click)="onSubmit()" [ngClass]="{'btn-disabled':loginForm.invalid}">Next</button>
+    </form>
+    </div>
+</div>

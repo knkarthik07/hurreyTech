@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="username">
+        <h2>Hello {{name}}!</h2>
+        <h3>Choose your avatar</h3>
+    </div>
+    <div class="avatar avatar-icon">
+        <div  *ngFor="let image of images; let i = index;" (click)="setRow(i,image.src)" [ngClass]="{'highlight': selectedIndex === i}">
+        <img src="{{image.src}}" alt="{{image.alt}}">
+        </div>
+    </div>
+    <button class="btn" type="submit" [disabled]="nextButton" (click)="onNext()" [ngClass]="{'btn-disabled':nextButton}">Next</button>
+</div>
